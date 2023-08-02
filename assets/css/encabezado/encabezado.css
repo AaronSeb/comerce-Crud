@@ -1,0 +1,43 @@
+.section__encabezado {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.barra__navegacion{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    vertical-align: auto;
+    gap: 5px;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+
+.btn__login{
+    padding: .5rem 1.5rem;
+    margin-right: .5rem;
+    display: inline-flex;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1rem;
+    background-color: var(--contrast-ligth-color);
+    border: solid 2px var(--primary-color);
+    color: var(--primary-color);
+}
+
+.logo {
+    width: 8rem;
+}
+
+.menuAdministrador{
+    border: solid 2px var(--color_botones-2);
+    outline: none;
+    background-color: var(--contrast-ligth-color);
+    color: var(--color_botones-2);
+    padding: 16px;
+    margin-top: 16px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}

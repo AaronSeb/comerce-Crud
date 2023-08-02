@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bases/reset.css">
+    <link rel="stylesheet" href="/assets/css/bases/global.css">
+    <link rel="stylesheet" href="/assets/css/encabezado/encabezado.css">
+    <link rel="stylesheet" href="/assets/css/banner/banner.css">
+    <link rel="stylesheet" href="/assets/css/productos/productos.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contacto.css">
+    <link rel="stylesheet" href="/assets/css/login/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="section__encabezado">
+        <nav class="barra__navegacion">
+            <img class="logo" src="/assets/img/logo.svg" alt="">
+            <img class="img__buscador" src="/assets/img/search.svg" alt="">
+        </nav>
+    </header>
+    <main>
+        <section class="section__login">
+            <div class="login">
+                <h2 class="titulo_login">Iniciar Sesión</h2>
+                <form action="" data-login>
+                    <div class="content_input" >
+                        <input name="email" type="email" placeholder="Escriba su correo" class="input" id="email" required data-tipo="email">
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="content_input">
+                        <input name="password" type="password" placeholder="Escriba su contraseña" class="input" id="password" required data-tipo="password">
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <button id="btnSubmit" class="btn_login">Entrar</button>
+                </form>
+            </div>
+        </section>
+        
+        <section class = "contacto__container">
+            <div class="contacto__section1">
+                <div class = "contacto__logo">
+                    <a href = "#">
+                        <img alt = "logo" class = "contacto__logoFooter" src = "/assets/img/logo.svg">
+                    </a>
+                </div>
+                <div class = "contacto__info">
+                    <ul>
+                        <li class = "contacto__info-li"><a class = "contacto__info-text" href = "#">Quienes somos</a></li>
+                        <li class = "contacto__info-li"><a class = "contacto__info-text" href = "#">Política de privacidad</a>
+                        </li>
+                        <li class = "contacto__info-li"><a class = "contacto__info-text" href = "#">Programa de fidelidad</a>
+                        </li>
+                        <li class = "contacto__info-li"><a class = "contacto__info-text" href = "#">Nuestras Tiendas</a></li>
+                        <li class = "contacto__info-li"><a class = "contacto__info-text" href = "#">Quiero ser franquiciado</a>
+                        </li>
+                        <li class = "contacto__info-li"><a class = "contacto__info-text" href = "#">Anúncie aquí</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="formulario_contenedor formulario_contenedor-abajo">
+                <legend class="titulo_legend_contacto">Hable con nosotros</legend>
+                <form class="contacto__formulario" action="">
+                    <div class="contenedor_input">
+                        <input name="nombre" type="text" placeholder="nombre" class="input_texto" required data-tipo="nombre">
+                        <label for="nombre" class="label_flotante">nombre</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="mensaje" required></textarea><br>
+                    <button class="btn_formulario">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script type="module" src="/controllers/login.controller.js"></script>
+    <script src="/middlewares/app.js"></script>
+</body>
+</html>

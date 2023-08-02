@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bases/reset.css">
+    <link rel="stylesheet" href="/assets/css/bases/global.css">
+    <link rel="stylesheet" href="/assets/css/encabezado/encabezado.css">
+    <link rel="stylesheet" href="/assets/css/banner/banner.css">
+    <link rel="stylesheet" href="/assets/css/productos/productos.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contacto.css">
+    <link rel="stylesheet" href="/assets/css/login/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="section__encabezado">
+        <nav class="barra__navegacion">
+            <img class="logo" src="/assets/img/logo.svg" alt="">
+            <a href="" class="menuAdministrador">Administrador</a>
+            <img class="img__buscador" src="/assets/img/search.svg" alt="">
+        </nav>
+    </header>
+    <main>
+        <section class="section__productos">
+            <div class="all__productos__encabezado">
+                <h2 class="encabezado__titulo">Actualizar Producto</h2>
+            </div>
+            <div class="formulario_contenedor">
+                <form class="contacto__formulario" action="" data-form>
+                    <div class="contenedor_input">
+                        <input name="url" type="text" placeholder="url" class="input_texto" required data-url="url">
+                        <label for="url" class="label_flotante">URL de la imagen</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="contenedor_input">
+                        <input name="categoria" type="text" placeholder="categoria" class="input_texto" required data-categoria="categoria">
+                        <label for="categoria" class="label_flotante">Categoria : Juegos,Consolas,Diversos</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="contenedor_input">
+                        <input name="nombre" type="text" placeholder="nombre" class="input_texto" required data-nombre="nombre">
+                        <label for="nombre" class="label_flotante">Nombre del producto</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="contenedor_input">
+                        <input name="precio" type="text" placeholder="precio" class="input_texto" required pattern="^\d+(\.\d+)?$" data-precio="precio">
+                        <label for="precio" class="label_flotante">Precio del producto</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Descripción del producto" required data-descripcion="descripcion"></textarea><br>
+                    <button class="btn_formulario completo">Actualizar</button>
+                </form>
+            </div>
+            
+            
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><!-- de un externo exportamos el cdn para manejar el id único -->
+    <script type="module" src="/controllers/editar.controller.js"></script>
+</body>
+</html>

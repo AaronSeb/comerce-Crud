@@ -1,0 +1,107 @@
+{
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "12345",
+      "id": 1
+    }
+  ],
+  "productos": [
+    {
+      "url": "https://th.bing.com/th/id/R.763843e980b3a642627e8f8c053a2887?rik=1IO5G6v3UxQk0Q&riu=http%3a%2f%2fwww.gratistodo.com%2fwp-content%2fuploads%2f2016%2f07%2fatardecer-en-la-playa-con-pisada-en-la-arena.jpg&ehk=w7qj3M2fxmeM0sNtkejAC3Q1DttgQOsNBPmsRN8J2%2bY%3d&risl=&pid=ImgRaw&r=0",
+      "categoria": "Diversos",
+      "nombre": "Rayos",
+      "precio": "15.00",
+      "descripcion": "producto para probar",
+      "id": "3f524252-40d2-4c8c-bf4a-6e00c3f7f546"
+    },
+    {
+      "url": "/assets/img/img1.jpeg",
+      "categoria": "Diversos",
+      "nombre": "pruebaEdición1",
+      "precio": "15.00",
+      "descripcion": "nuevo producto editado",
+      "id": "bd0766f8-4c7d-4568-a6af-4d4b5f1d652c"
+    },
+    {
+      "url": "/assets/img/img2.jpeg",
+      "categoria": "Diversos",
+      "nombre": "Ahora1",
+      "precio": "15.00",
+      "descripcion": "nuevo producto",
+      "id": "1447b300-f7f1-4c1c-a274-631a2da330a7"
+    },
+    {
+      "url": "https://th.bing.com/th/id/R.af9a5d5fa57f0359951c28245772d14a?rik=1%2f7JNV7WlD7uYg&pid=ImgRaw&r=0",
+      "categoria": "Juegos",
+      "nombre": "FIFA23",
+      "precio": "239.00",
+      "descripcion": "el juego de futbol más jugado en todos los tiempos",
+      "id": "99b3e0cd-8392-470b-8403-a1b5e9967c0c"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/IHtbZAhmEPc/maxresdefault.jpg",
+      "categoria": "Juegos",
+      "nombre": "Crash Bandicop",
+      "precio": "190.00",
+      "descripcion": "Juego de Crash de Aventuras",
+      "id": "f02c6a7d-350c-45ad-ade5-7a2b61202a7f"
+    },
+    {
+      "url": "https://images-na.ssl-images-amazon.com/images/I/51SQQbUtUdL._SL1448_.jpg",
+      "categoria": "Consolas",
+      "nombre": "Play Station 5",
+      "precio": "3000.00",
+      "descripcion": "Consola de videojuegos de Sony",
+      "id": "c7550c39-bc4c-4711-9e56-b927a1a39ff2"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/u06-1osrxSQ/maxresdefault.jpg",
+      "categoria": "Juegos",
+      "nombre": "WWE 2K22",
+      "precio": "180.00",
+      "descripcion": "Juego de lucha libre de la franquicia WWE",
+      "id": "696449a5-8d21-4b5d-a107-ca53f1fdaa98"
+    },
+    {
+      "url": "https://nintendon.it/wp-content/uploads/2020/12/Resident-Evil-4-2.jpg",
+      "categoria": "Juegos",
+      "nombre": "Resident Evil 4",
+      "precio": "105.00",
+      "descripcion": "juego de terror",
+      "id": "e1738550-806a-4332-9113-4ae823ac5a8d"
+    },
+    {
+      "url": "https://th.bing.com/th/id/OIP.aB3xgYJygjUQa6Xa2p9E-AHaHc?pid=ImgDet&rs=1",
+      "categoria": "Consolas",
+      "nombre": "Xbox360",
+      "precio": "1800.00",
+      "descripcion": "consola de videojuegos",
+      "id": "fbf8ff22-acb3-4d07-8e23-87f013399121"
+    },
+    {
+      "url": "https://th.bing.com/th/id/R.a65798aee0e4af4bbe6bb93452998769?rik=MtgFfialMHXtVg&pid=ImgRaw&r=0",
+      "categoria": "Consolas",
+      "nombre": "Nintendo Swicht",
+      "precio": "2000.00",
+      "descripcion": "Consola de videojuegos",
+      "id": "c3856a66-eab7-4fdd-8709-72c6acf21d19"
+    },
+    {
+      "url": "https://cl.buscafs.com/www.levelup.com/public/uploads/images/504913.png",
+      "categoria": "Consolas",
+      "nombre": "Atari",
+      "precio": "1500.00",
+      "descripcion": "Consola de videojuegos",
+      "id": "1237178b-7c67-4832-a2cb-beccc2a6a423"
+    },
+    {
+      "url": "https://th.bing.com/th/id/R.4d3b02aaa9b9f5c0e95227c506354e9d?rik=fpiwayl942UF6Q&riu=http%3a%2f%2fnews.entertainmentearth.com%2fwp-content%2fuploads%2f2015%2f12%2fFU5759.jpg&ehk=Piy9FeQH%2fZuaNQmQy4jBzW4meAP7OuAwkhWP45xHcd0%3d&risl=&pid=ImgRaw&r=0",
+      "categoria": "Diversos",
+      "nombre": "Funko Deadpool",
+      "precio": "50.00",
+      "descripcion": "Funko de Deadpool",
+      "id": "bd73ed4f-c26f-4b6f-954f-8c887f3bc749"
+    }
+  ]
+}
