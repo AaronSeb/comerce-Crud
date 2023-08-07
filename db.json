@@ -18,7 +18,7 @@
     {
       "url": "/assets/img/img1.jpeg",
       "categoria": "Diversos",
-      "nombre": "pruebaEdición1",
+      "nombre": "pruebaEdición2",
       "precio": "15.00",
       "descripcion": "nuevo producto editado",
       "id": "bd0766f8-4c7d-4568-a6af-4d4b5f1d652c"
@@ -102,6 +102,14 @@
       "precio": "50.00",
       "descripcion": "Funko de Deadpool",
       "id": "bd73ed4f-c26f-4b6f-954f-8c887f3bc749"
+    },
+    {
+      "url": "https://th.bing.com/th/id/R.763843e980b3a642627e8f8c053a2887?rik=1IO5G6v3UxQk0Q&riu=http%3a%2f%2fwww.gratistodo.com%2fwp-content%2fuploads%2f2016%2f07%2fatardecer-en-la-playa-con-pisada-en-la-arena.jpg&ehk=w7qj3M2fxmeM0sNtkejAC3Q1DttgQOsNBPmsRN8J2%2bY%3d&risl=&pid=ImgRaw&r=0",
+      "categoria": "Juegos",
+      "nombre": "dasdasdas",
+      "precio": "120.00",
+      "descripcion": "dsdasdas",
+      "id": "6e3d21c4-350f-441c-ab77-fb105dda00f3"
     }
   ]
 }
